@@ -47,7 +47,7 @@ const useSearch = () => {
     async (value: string) => {
       try {
         const res = await getLocations(
-          `/data/2.5/forecast?q=${value}&cnt=3&units=metric&appid=304fa7c159997852e50541c77c7f2f3a`,
+          `/data/2.5/forecast?q=${value}&cnt=3&units=metric&appid={$token}`,
         );
 
         if (res.cod === '200') {
