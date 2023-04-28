@@ -1,5 +1,5 @@
 # Coding-challenge
-    Build a weatherforcast application that displays a 3 day forecast
+    Build a weatherforcast application that displays a 3 day forecast in an 2 hours timeframe
 
 # Tools
    API:     https://api.openweathermap.org/data/2.5/forecast?q={location}&cnt={DAYS}&units=metric&appid={API_KEY}
