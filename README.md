@@ -23,6 +23,7 @@
 5. tests
 
 # Tips for Icon Ranges:
+```
 rangeId>=200 && rangeId<=232 = WiThunderstorm;
 rangeId>=300 && rangeId<=321 = WiSleet;
 rangeId>=500 && rangeId<=531 = WiRain;
@@ -30,9 +31,10 @@ rangeId>=600 && rangeId<=622 = WiSnow;
 rangeId>=701 && rangeId<=781 = WiFog;
 rangeId===800                = WiDaySunny;
 rangeId>=801 && rangeId<=804 = WiDayFog;
+```
 
 # Response Example
-{
+```{
   "cod": "200",
   "message": 0,
   "cnt": 1,
@@ -76,4 +78,4 @@ rangeId>=801 && rangeId<=804 = WiDayFog;
     "sunrise": 1629091724,
     "sunset": 1629141124
   }
-}
+}```
